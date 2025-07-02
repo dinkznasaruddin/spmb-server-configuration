@@ -114,10 +114,10 @@ Edit `/etc/php/7.4/fpm/pool.d/www.conf`
 
 ```ini
 pm = dynamic
-pm.max_children = 80
-pm.start_servers = 10
-pm.min_spare_servers = 5
-pm.max_spare_servers = 20
+pm.max_children = 1200
+pm.start_servers = 60
+pm.min_spare_servers = 30
+pm.max_spare_servers = 120
 pm.max_requests = 500
 pm.process_idle_timeout = 10s
 ```
