@@ -142,6 +142,6 @@ pm.process_idle_timeout = 10s
 ---
 
 **Disusun oleh:**
-Tim IT Support SPMB Kota Makassar
+Tim ICT Bidang Aplikasi Informatika | Diskominfo Kota Makassar
 2025
 
