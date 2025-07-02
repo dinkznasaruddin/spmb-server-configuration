@@ -16,9 +16,14 @@ Konfigurasi ini digunakan untuk mengoptimalkan performa web server berbasis **Ng
 ## 🧰 Teknologi yang Digunakan
 
 * Ubuntu Server
+* RAM 175
+* Core 32
+* VM Sangfor 
 * Nginx 1.18
 * PHP 7.4 + PHP-FPM
 * Mode Single Web Server (belum Load Balancer)
+
+  
 
 ---
 
