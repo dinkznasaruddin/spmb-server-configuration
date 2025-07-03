@@ -1,6 +1,6 @@
 # Web Server Optimization - SPMB Kota Makassar
 
-Konfigurasi ini digunakan untuk mengoptimalkan performa web server berbasis **Nginx + PHP-FPM** dalam menangani trafik tinggi saat pendaftaran SPMB (Sistem Penerimaan Mahasiswa Baru) Kota Makassar.
+Konfigurasi ini digunakan untuk mengoptimalkan performa web server berbasis **Nginx + PHP-FPM** dalam menangani trafik tinggi saat pendaftaran SPMB (Sistem Penerimaan Murid Baru) Kota Makassar.
 
 ---
 
@@ -29,7 +29,7 @@ Konfigurasi ini digunakan untuk mengoptimalkan performa web server berbasis **Ng
 
 ## 🔧 Konfigurasi Nginx
 
-### 1. Tambahkan di blok `http` (biasanya di `/etc/nginx/nginx.conf`)
+### 1. Penambahan Blok `http` (biasanya di `/etc/nginx/nginx.conf`)
 
 ```nginx
 limit_conn_zone $binary_remote_addr zone=conn_limit_per_ip:10m;
